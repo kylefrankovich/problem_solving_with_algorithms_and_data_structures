@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a7c8953-3d46-40d7-abcc-040e76c0861e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter_4_recursion.py" afterPath="$PROJECT_DIR$/chapter_4_recursion.py" />
     </list>
     <ignored path="problem_solving_with_algorithms_and_data_structures.iws" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="chapter_4_recursion.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter_4_recursion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="327">
+              <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -116,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,7 +138,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -358,6 +359,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_3_basic_data_structures.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_4_recursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_2_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="e#282#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_3_basic_data_structures.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -400,8 +435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_4_recursion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="327">
+          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
           <folding />
         </state>
       </provider>
