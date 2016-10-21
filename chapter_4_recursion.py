@@ -80,7 +80,7 @@ def palindromecheck(s):
     strip_string = ''.join(e for e in s if e.isalnum())
     is_palindrome = True
     while is_palindrome:
-        
+
 
 
 s = "madam i’m adam!!!!"
