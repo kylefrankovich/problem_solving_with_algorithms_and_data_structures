@@ -191,3 +191,94 @@ random amount in some range.'''
 from pythonds.basic.stack import Stack
 
 rStack = Stack()
+
+## chapter 4 programming exercises:
+
+# Write a recursive function to compute the factorial of a number:
+
+'''Write a function that takes a string as a parameter and
+returns a new string that is the reverse of the old string.'''
+
+from test import testEqual
+def reverse(s):
+    if len(s) <= 1:
+        return s
+    else:
+        return reverse(s[1:]) + s[0]
+
+def factorialize(n):
+    if n == 1:
+        return n
+    else:
+        return n * factorialize(n-1)
+
+
+factorialize(5)
+
+
+
+# Write a recursive function to reverse a list:
+
+def reverseList(s):
+    if len(s) == 0:
+        return []
+    else:
+        return s[-1:] + reverseList(s[:-1])
+
+
+blah = [1,2,3,4,5]
+
+blah2 = ['a','b','c','d','e']
+
+blah[-1:]
+
+blah[:-1]
+
+
+reverseList(blah2)
+
+# Write a recursive function to compute the Fibonacci sequence. How does the performance of
+# the recursive function compare to that of an iterative version?
+
+# a series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers.
+# The simplest is the series 1, 1, 2, 3, 5, 8, etc.
+
+
+def fib(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+
+fib(9)
+
+# iterative solution:
+
+def fibi(n):
+    a, b = 0, 1
+    for i in range(n):
+        a, b = b, a + b
+    return a
+
+# memoized version:
+
+memo = {0:0, 1:1}
+def fibm(n):
+    if not n in memo:
+        memo[n] = fibm(n-1) + fibm(n-2)
+    return memo[n]
+
+
+
+
+
+
+
+
+
+
+
+
+
